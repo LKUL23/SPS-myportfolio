@@ -5,15 +5,93 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+  
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+      <div class="bg">
+	    <div class= "images"></div>
+	  </div>
+      <div class="tab">
+        <button class="tablinks" onclick="tabs(event, 'About Me')">About Me</button>
+        <button class="tablinks" onclick="tabs(event, 'Projects')">Projects</button>
+        <button class="tablinks" onclick="tabs(event, 'Contact Info')">Contact Info</button>
+      </div>
+      <div id="About Me" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <div class="header">
+        <h1> A Little Bit About Me</h1>
+        </div>
+        <div class="profile">
+            <br><br>
+            <h1>Eric Landaverde</h1>
+            <br>
+            <p>Full Stack Software Developer</p>
+            <br>
+            <p>Web Application Penetration Tester</p>
+            <br>
+            <p>Undergraduate Student Researcher</p>
+            <br>
+            <p>Computer Science & Cyber Security Student</p>
+            <br><br>
+        <ul> 
+            <li>
+            <a href="https://github.com/LKUL23">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="fa fa-github"></span>
+            </a> 
+            </li>
+            <li>
+            <a href="mailto:ericlandaverde23@gmail.com">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="fa fa-google"></span>
+            </a> 
+            </li>
+            <li>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="fa fa-file-pdf-o"></span>
+            </a> 
+            </li>
+            <li>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="fa fa-linkedin"></span>
+            </a> 
+            </li>
+        </ul>
+        </div>
+        <div class="text">
+              <p>My Name is Eric Landaverde and I am a third year computer science student at Kean University in New Jersey.
+           I am interested in software development, data mining, and AI, as well as things outside of technology like running, hiking, and powerlifting. 
+           My philosphy is that it is important to care about your mind, body, and soul, and explore different interests to become a well-rounded person, which involves a lot
+           of self-reflection and growing. One thing that has remained constant in my life is my desire to learn, teach, and problem-solve. Seeing others grow allows me to grow as well,
+           and so no matter what I am interested in I am always passionate about learning from others, teaching others, and helping people solve their problems. 
+
+           Ever since I was little, I loved</p>
+        <p></p>
+        </div>
+      </div>
+      
+      <div id="Projects" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <div class="header">
+        <h1>Conference Posters</h1>
+        <p>I wonder what will happen</p>
+        </div>
+        <p></p>
     </div>
   </body>
 </html>
