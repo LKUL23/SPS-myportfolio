@@ -6,7 +6,6 @@
   }
 /*Style for Full Screen Image*/
   .bg {
-    
     background-image: url(/images/domore.jpg);
     height: 100%;
     background-position: center;
@@ -52,7 +51,6 @@
   }
 
 /* Style for social link buttons*/
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 * {
   padding: 0px;
   margin: 0px;
@@ -144,7 +142,6 @@ ul li:nth-child(4):hover span{
 }
 
 
-
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -191,4 +188,11 @@ ul li:nth-child(4):hover span{
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+h1 {
+    text-align:  center;
+}
+
+h2 {
+    text-align: left;
 }
